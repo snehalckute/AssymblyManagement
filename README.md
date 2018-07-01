@@ -15,8 +15,12 @@ Build IDE: Eclipse Java EE IDE Luna Service Release 2 (4.4.2)
 	
 
 JDK Version: java version "1.8.0_162"		
+	
+
 
 Section 3 :	
+	
+
 a)	EclEmma scan Snapshot - ![EclEmma] https://github.com/snehalckute/AssymblyManagement/blob/master/images_snapshot/COVERAGE.png	
 	
 
@@ -28,6 +32,8 @@ c)	Junit Coverage Snapshot - https://github.com/snehalckute/AssymblyManagement/b
 Section 4 :	
 
 Licensing 	
+	
+
 A)	THE CODE DOES NOT HAVE ANY COPYRIGHT WHATSOEVER. 	
 	
 
