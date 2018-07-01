@@ -10,7 +10,7 @@ Section 2 :
 	JDK Version: java version "1.8.0_162"
 
 Section 3 :
-a)	Sonar lint / EclEmma scan Snapshot 
+a)	Sonar lint / EclEmma scan Snapshot - ![EclEmma] https://github.com/snehalckute/AssymblyManagement/blob/master/images_snapshot/COVERAGE.png
 b)	SAMPLE Request - GET : http://localhost:1234/assemble/15/30/3   Response - {"totalProducts":15,"totalTimeTaken":15} Final Output Snapshot - TODO
 c)	Junit Coverage Snapshot - TODO
 
