@@ -16,7 +16,9 @@ Build IDE: Eclipse Java EE IDE Luna Service Release 2 (4.4.2)
 
 JDK Version: java version "1.8.0_162"		
 	
-
+Build command :
+mvn clean install
+     Run command : mvn spring-boot:run
 
 Section 3 :	
 	
