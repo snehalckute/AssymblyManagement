@@ -27,7 +27,7 @@ a)	EclEmma scan Snapshot - ![EclEmma] https://github.com/snehalckute/AssymblyMan
 b)	Final Output Snapshot - https://github.com/snehalckute/AssymblyManagement/blob/master/images_snapshot/Output.png	
 	
 
-c)	Junit Coverage Snapshot - https://github.com/snehalckute/AssymblyManagement/blob/master/images_snapshot/COVERAGE.png		
+c)	Junit log Snapshot - https://github.com/snehalckute/AssymblyManagement/blob/master/images_snapshot/JUNIT_OutPut.png		
 
 Section 4 :	
 
