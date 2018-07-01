@@ -10,11 +10,12 @@ Section 2 :
 	JDK Version: java version "1.8.0_162"
 
 Section 3 :
-a)	Sonar lint / EclEmma scan Snapshot - ![EclEmma] https://github.com/snehalckute/AssymblyManagement/blob/master/images_snapshot/COVERAGE.png
-b)	SAMPLE Request - GET : http://localhost:1234/assemble/15/30/3   Response - {"totalProducts":15,"totalTimeTaken":15} Final Output Snapshot - TODO
-c)	Junit Coverage Snapshot - TODO
+a)	EclEmma scan Snapshot - ![EclEmma] https://github.com/snehalckute/AssymblyManagement/blob/master/images_snapshot/COVERAGE.png
+b)	Final Output Snapshot - https://github.com/snehalckute/AssymblyManagement/blob/master/images_snapshot/Output.png
+c)	Junit Coverage Snapshot - https://github.com/snehalckute/AssymblyManagement/blob/master/images_snapshot/COVERAGE.png
 
 Section 4 :
+
 Licensing 
 A)	THE CODE DOES NOT HAVE ANY COPYRIGHT WHATSOEVER. 
 b)	THE CODE IS NOT GOVERNED BY ANY LICENSES WHATSOEVER. 
