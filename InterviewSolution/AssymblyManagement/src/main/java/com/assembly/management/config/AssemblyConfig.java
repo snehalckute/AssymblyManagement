@@ -30,6 +30,8 @@ public class AssemblyConfig {
 	 * Application level counter
 	 */
 	private static int nextVal = 0;
+	
+	private static final String TASK_EXECUTOR_THREAD = "TASK_EXECUTOR_THREAD";
 
 	/**
 	 * Application level countdown latch
@@ -56,7 +58,7 @@ public class AssemblyConfig {
 		ThreadPoolTaskExecutor rExecutor = new ThreadPoolTaskExecutor();
 		rExecutor.setCorePoolSize(3);
 		rExecutor.setMaxPoolSize(3);
-		rExecutor.setThreadNamePrefix("TASK_EXECUTOR_THREAD");
+		rExecutor.setThreadNamePrefix(TASK_EXECUTOR_THREAD);
 		rExecutor.initialize();
 		return rExecutor;
 	}

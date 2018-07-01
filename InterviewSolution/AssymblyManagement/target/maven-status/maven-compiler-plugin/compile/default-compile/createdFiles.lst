@@ -1,0 +1,11 @@
+com\assembly\management\service\impl\AssemblyService$1.class
+com\assembly\management\controller\AssemblyController.class
+com\assembly\management\bean\RequestBean.class
+com\assembly\management\service\impl\AssemblyService.class
+com\assembly\management\config\AssemblyConfig.class
+com\assembly\management\exception\AssemblyException.class
+com\assembly\management\bean\ResponseBean.class
+com\assembly\management\config\AssemblyConfig$Material.class
+com\assembly\management\Main.class
+com\assembly\management\service\IAssemblyService.class
+com\assembly\management\bean\RawMaterialHolder.class

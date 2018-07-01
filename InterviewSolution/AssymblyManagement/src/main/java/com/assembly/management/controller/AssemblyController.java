@@ -7,14 +7,15 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
-import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.assembly.management.bean.RequestBean;
 import com.assembly.management.bean.ResponseBean;
-import com.assembly.management.service.AssemblyService;
+import com.assembly.management.service.IAssemblyService;
 
 /**
  * Assembly controller
@@ -27,7 +28,7 @@ import com.assembly.management.service.AssemblyService;
 public class AssemblyController {
 
 	@Autowired
-	AssemblyService assemblyService;
+	IAssemblyService assemblyService;
 
 	Logger logger = LoggerFactory.getLogger(AssemblyController.class);
 
@@ -40,13 +41,12 @@ public class AssemblyController {
 	 * @return
 	 * @throws InterruptedException
 	 */
-	@RequestMapping(value = "/assemble/{machines}/{bolts}/{assemblyTime}", method = RequestMethod.GET, produces = { MediaType.APPLICATION_JSON_VALUE })
+	@RequestMapping(value = "/assemble", method = RequestMethod.POST, produces = { MediaType.APPLICATION_JSON_VALUE })
 	@ResponseBody
-	ResponseBean manageAssembly(@PathVariable Integer machines,
-			@PathVariable Integer bolts, @PathVariable Integer assemblyTime)
+	ResponseBean manageAssembly(@RequestBody RequestBean requestBean)
 			throws InterruptedException {
 		logger.info("START - Process");
-		return assemblyService.processProduct(machines, bolts, assemblyTime);
+		return assemblyService.processProduct(requestBean);
 	}
 
 }

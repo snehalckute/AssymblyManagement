@@ -74,13 +74,4 @@ public class RawMaterialHolder {
 	public boolean isRawMaterialReady() {
 		return isRawMaterialReady;
 	}
-
-	/**
-	 * Populate Id of the product being assembled
-	 * 
-	 * @return
-	 */
-	public Integer getId() {
-		return id;
-	}
 }
